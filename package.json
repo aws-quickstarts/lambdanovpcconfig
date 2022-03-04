@@ -1,0 +1,11 @@
+{
+  "name": "lambdanode",
+  "version": "1.0.0",
+  "description": "Esse arquivo cria:\r - Uma função Lambda utilizando Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
