@@ -1,8 +1,4 @@
 {
     "Parameters": {
-        "FunctionName": "LambdaNoVPCConfig",
-        "S3Bucket": "804473135082-lambda-src",
-        "S3Key": "LambdaNoVPCConfig.zip",
-        "Owner": "tg"
     }
 }

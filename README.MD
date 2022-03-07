@@ -1,4 +1,4 @@
-# Lambda No VPC Config
+# Lambda Node No VPC Config
 
-Esse arquivo cria:
-- Uma função Lambda sem VPC config;
+This project creates:
+- Lambda Function without VPC config;

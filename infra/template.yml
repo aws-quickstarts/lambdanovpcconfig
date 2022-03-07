@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 
-Description: Cria uma lambda sem VPC config
+Description:  Creates a Lambda Function without VPC config
 
 Parameters:
 
@@ -10,7 +10,7 @@ Parameters:
 
   S3Bucket:
     Type: String
-    Default: 804473135082-lambda-src
+    Default: tg-quicklabs-lambdasrc
 
   S3Key:
     Type: String
@@ -43,7 +43,9 @@ Resources:
           Statement:
           - Effect: Allow
             Action:
-              - logs:*
+              - logs:CreateLogStream
+              - logs:CreateLogGroup
+              - logs:PutLogEvents
             Resource: "*"
 
   Lambda:
