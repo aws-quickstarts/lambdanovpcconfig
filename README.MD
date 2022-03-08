@@ -1,4 +1,4 @@
-# Lambda Node No VPC Config
+# lambdanovpcconfig
 
 This project creates:
-- Lambda Function without VPC config;
+- Lambda function without VPC config;
